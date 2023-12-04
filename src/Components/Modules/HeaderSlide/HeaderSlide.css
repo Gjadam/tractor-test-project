@@ -1,0 +1,38 @@
+.header-slider {
+    width: 100%;
+    height: 75vh;
+    position: relative;
+}
+
+.header-slider__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.header-slider__content-wrapper {
+    width: 60rem;
+}
+
+.header-slider__title {
+    font-size: 4rem;
+}
+
+.header-slider__btn-hover {
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.header-slider__btn-hover:hover {
+    color: var(--primary-color);
+}
+
+.header-slider__icon-color {
+    color: var(--primary-color);
+}
