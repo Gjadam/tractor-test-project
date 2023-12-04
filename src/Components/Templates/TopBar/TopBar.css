@@ -1,0 +1,18 @@
+.top-bar__color {
+    color: var(--secondary-color);
+}
+
+.top-bar__font-size {
+    font-size: 14px;
+}
+
+.top-bar__hover {
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+.top-bar__hover:hover {
+    color: var(--primary-color);
+}
