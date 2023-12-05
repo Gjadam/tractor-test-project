@@ -8,7 +8,7 @@
 .information-box__count {
     color: var(--primary-color);
     font-size: 4rem;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
 }
 
 .information-box__title{
