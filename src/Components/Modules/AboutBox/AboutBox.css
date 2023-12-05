@@ -1,0 +1,7 @@
+.about-box__title {
+    color: var(--primary-color);
+}
+.about-box__text {
+    max-width: 18rem;
+    color: var(--secondary-color);
+}
