@@ -1,6 +1,5 @@
 import React from 'react'
 import './ArticleBox.css'
-import { FaRegCircle } from "react-icons/fa6";
 import { HiOutlineArrowSmLeft } from "react-icons/hi";
 export default function ArticleBox({ imgUrl, title, text }) {
     return (
