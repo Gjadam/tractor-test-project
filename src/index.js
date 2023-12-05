@@ -6,6 +6,7 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Styles/fonts.css'
 import './Styles/variables.css'
+import './Styles/responsive.css'
 import 'swiper/css';
 import 'swiper/css/navigation';
 
