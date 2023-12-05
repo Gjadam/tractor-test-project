@@ -1,0 +1,22 @@
+
+
+.information-box__icon {
+    width: 100%;
+    height: 5rem;
+}
+
+.information-box__count {
+    color: var(--primary-color);
+    font-size: 4rem;
+    letter-spacing: 0.3rem;
+}
+
+.information-box__title{
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+
+.information-box__text {
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+}
