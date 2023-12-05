@@ -1,5 +1,5 @@
 .top-bar__color {
-    color: var(--secondary-color);
+    color: var(--secondary-color) !important;
 }
 
 .top-bar__font-size {
@@ -14,5 +14,5 @@
     -o-transition: var(--transition);
 }
 .top-bar__hover:hover {
-    color: var(--primary-color);
+    color: var(--primary-color) !important;
 }
