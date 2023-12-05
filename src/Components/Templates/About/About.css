@@ -1,0 +1,19 @@
+.about {
+    height: 35rem;
+}
+.about__right-bg {
+    background: url('/public/images/jpg/about-1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 30% ;
+}
+.about__left-bg {
+    background: url('/public/images/jpg/about-2.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 65%;
+}
+
+.about__title {
+    max-width: 37rem;
+}
