@@ -1,5 +1,4 @@
 import React from 'react'
-import './Customers.css'
 import { Container } from 'react-bootstrap';
 import { Swiper, SwiperSlide } from "swiper/react";
 import CustomersBox from '../../Modules/CustomersBox/CustomersBox';
