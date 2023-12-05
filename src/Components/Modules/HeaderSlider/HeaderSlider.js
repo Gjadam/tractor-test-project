@@ -1,14 +1,22 @@
 import React from 'react'
 import './HeaderSlider.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 
 import HeaderSlide from '../HeaderSlide/HeaderSlide';
 
 export default function HeaderSlider() {
     return (
-        <>
-            <Swiper navigation={true} loop modules={[Navigation]} className="mySwiper">
+        <div className=''>
+            <Swiper
+                navigation={true}
+                loop
+                autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false,
+                }}
+                modules={[Autoplay, Navigation]}
+                className="mySwiper">
                 <SwiperSlide>
                     <HeaderSlide
                         imgUrl={"/images/jpg/header-slider-2.jpg"}
@@ -37,6 +45,6 @@ export default function HeaderSlider() {
                         slide={3} />
                 </SwiperSlide>
             </Swiper>
-        </>
+        </div>
     )
 }
