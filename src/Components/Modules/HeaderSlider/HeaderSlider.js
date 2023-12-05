@@ -10,6 +10,7 @@ export default function HeaderSlider() {
         <div className=''>
             <Swiper
                 navigation={true}
+
                 loop
                 autoplay={{
                     delay: 3000,
