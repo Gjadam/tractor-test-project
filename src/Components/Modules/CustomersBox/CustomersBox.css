@@ -1,0 +1,52 @@
+.customers-box__image__wrapper {
+    width: 15rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.customers-box__icon__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 0.4rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.customers-box__icon {
+    font-size: 2.8rem;
+}
+
+.customers-box__title {
+    color: var(--text-color);
+}
+
+.customers-box__title__role {
+    position: relative;
+    color: var(--primary-color);
+
+}
+
+.customers-box__title__role::before {
+    content: "";
+    width: 0.5rem;
+     height: 2px;
+     background-color: var(--primary-color);
+     position: absolute;
+     right: -0.6rem;
+     bottom: 0.6rem;
+}
+
+.customers-box__text {
+    max-width: 20rem;
+    color: var(--secondary-color);
+}
+.customers-box__rate {
+    color: #f8c823;
+}
+
