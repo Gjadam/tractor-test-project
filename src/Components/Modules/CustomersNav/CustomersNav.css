@@ -1,0 +1,43 @@
+.customers__icon {
+    font-size: 3rem;
+    color: var(--secondary-color);
+}
+
+.customers__prev-btn,
+.customers__next-btn {
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.customers__prev-btn:hover {
+    color: var(--primary-color);
+}
+
+.customers__next-btn:hover {
+    color: var(--primary-color);
+}
+
+.customers__next-btn {
+    position: relative;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.customers__between-btn {
+    color: #eee;
+    font-size: 1.7rem;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
