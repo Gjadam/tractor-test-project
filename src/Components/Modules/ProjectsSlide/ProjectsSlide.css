@@ -1,0 +1,34 @@
+.projects__bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    width: 80%;
+}
+
+.projects__content {
+    width: 25rem;
+    height: 25rem;
+    background-color: var(--primary-color);
+    position: absolute;
+    right: -18rem;
+}
+
+.projects__content__link {
+    color: #fff !important;
+    border-bottom: 2px solid hsla(0,0%,93%,.24);
+}
+.projects__content__link__title {
+
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+.projects__content__link__title:hover {
+    color: var(--text-color);
+}
+.projects__content__link__icon {
+
+}
