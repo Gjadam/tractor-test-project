@@ -1,0 +1,29 @@
+.news__latest-news__box__title__link {
+    text-decoration: none;
+
+}
+
+.news__latest-news__box__title__link:hover {
+    text-decoration: underline !important;
+}
+
+.news__latest-news__box__title {
+    color: var(--text-color);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    text-decoration: solid;
+}  
+
+.news__latest-news__box__title:hover {
+    color: var(--primary-color) ;
+    text-decoration: solid ;
+}
+
+
+.news__latest-news__box__date {
+    color: var(--secondary-color);
+}
+
