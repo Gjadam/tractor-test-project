@@ -22,10 +22,10 @@ export default function News() {
                         </a>
                     </div>
                     <div className="news__boxes col-12 col-lg-6   ">
-                        <NewsBox imgUrl={"/images/jpg/News-1.jpg"} category={"مهندسی مواد"} title={"وزارت بازرگانی تعرفه واردات آلومینیوم را افزایش می دهد"} />
-                        <NewsBox imgUrl={"/images/jpg/News-2.jpg"} category={"قدرت و انرژی"} title={"ایمنی فولادها: هند علیه حکم هیئت سازمان تجارت جهانی استیناف می کند"} />
-                        <NewsBox imgUrl={"/images/jpg/News-3.jpg"} category={"نفت و گاز"} title={"چرا ترامپ در مورد مبارزه برای تجارت آزاد اینقدر دست و پا چلفتی است"} />
-                        <NewsBox imgUrl={"/images/jpg/News-4.jpg"} category={"قئرت و انرژی"} title={"نرخ بهره پیش فرض در وام های کوچک در حال حاضر پایین ترین است"} />
+                        <NewsBox imgUrl={"/images/jpg/news-1.jpg"} category={"مهندسی مواد"} title={"وزارت بازرگانی تعرفه واردات آلومینیوم را افزایش می دهد"} />
+                        <NewsBox imgUrl={"/images/jpg/news-2.jpg"} category={"قدرت و انرژی"} title={"ایمنی فولادها: هند علیه حکم هیئت سازمان تجارت جهانی استیناف می کند"} />
+                        <NewsBox imgUrl={"/images/jpg/news-3.jpg"} category={"نفت و گاز"} title={"چرا ترامپ در مورد مبارزه برای تجارت آزاد اینقدر دست و پا چلفتی است"} />
+                        <NewsBox imgUrl={"/images/jpg/news-4.jpg"} category={"قئرت و انرژی"} title={"نرخ بهره پیش فرض در وام های کوچک در حال حاضر پایین ترین است"} />
                     </div>
                 </div>
             </Container>
