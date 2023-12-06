@@ -1,61 +1,108 @@
-
 @media only screen and (max-width: 1200px) {
     .projects__bg {
         width: 100% !important;
         margin-top: 15rem;
     }
+
     .projects__content {
-        width: 100% ;
-        right: 0 ;
+        width: 100%;
+        right: 0;
         top: -20rem;
     }
+
     .swiper-pagination-bullet {
         color: #ffffffaf !important;
         opacity: 1 !important;
     }
+
     .swiper-pagination-bullet:hover {
         color: #fff !important;
         opacity: 1 !important;
-      }
-      .swiper-pagination-bullets {
+    }
+
+    .swiper-pagination-bullets {
         padding-right: 0;
-      }
-      .swiper-pagination-bullet-active {
+    }
+
+    .swiper-pagination-bullet-active {
         color: #fff !important;
-      }
+    }
+
+    .news__latest-news {
+        width: 100% !important;
+    }
+
+    .news__boxes__box {
+        width: 27rem !important;
+    }
+    .news__boxes {
+        margin-top: 5rem;
+        justify-items: center;
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 992px) {
-
+    .news__boxes__box {
+        width: 20rem !important;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     .articles-box::before {
-        width: 10rem;
+        width: 15rem;
         top: 100%;
-        left: 11rem;
+        right: 8rem;
+        bottom: 0;
         transform: rotate(0);
         -webkit-transform: rotate(0);
         -moz-transform: rotate(0);
         -ms-transform: rotate(0);
         -o-transform: rotate(0);
 }
+    .news__boxes {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .news__boxes__box {
+        width: 100% !important;
+    }
 }
 
 @media only screen and (max-width: 576px) {
     .customers-box__image__wrapper {
         width: 100%;
     }
+
     .customers-box__image {
         width: 100%;
     }
+
     .customers-box__content {
         width: 100%;
     }
     .articles-box::before {
-        left: 9.5rem;
-    }
+        right: 6rem;
+        }
+
+
     .header-slider__title {
         font-size: 2.5rem;
     }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .articles-box::before {
+        right: 5rem;
+        }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .articles-box::before {
+        right: 3rem;
+        }
+
 }
