@@ -1,0 +1,26 @@
+.footer__list__title {
+    margin-bottom: 3rem;
+}
+
+
+
+.footer__list {
+    list-style: none;
+    margin: 1rem 0 !important;
+}
+
+.footer__list__link {
+    color: #777 !important;
+
+    text-decoration: none ;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.footer__list__link:hover {
+    color: var(--primary-color) !important;
+    text-decoration: underline !important;
+}
