@@ -6,7 +6,7 @@ import NewsBox from '../../Modules/NewsBox/NewsBox'
 
 export default function News() {
     return (
-        <div className="news ">
+        <div className="news pb-5 ">
             <Container>
                 <h2 className=' fw-bold  py-5 '>آخرین خبرها</h2>
                 <div className="row d-flex ">

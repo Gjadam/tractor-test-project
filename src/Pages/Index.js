@@ -7,6 +7,8 @@ import Information from '../Components/Templates/Information/Information'
 import Projects from '../Components/Templates/Projects/Projects'
 import Customers from '../Components/Templates/Customers/Customers'
 import News from '../Components/Templates/News/News'
+import Advertise from '../Components/Templates/Advertise/Advertise'
+import ContactUs from '../Components/Templates/ContactUs/ContactUs'
 
 export default function Index() {
     return (
@@ -19,6 +21,8 @@ export default function Index() {
             <Projects />
             <Customers />
             <News />
+            <Advertise />
+            <ContactUs />
         </>
     )
 }
