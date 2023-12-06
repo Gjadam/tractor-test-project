@@ -1,0 +1,15 @@
+
+.contact-us-box__title {
+    color: var(--text-color);
+}
+
+.contact-us-box__icon {
+    color: var(--primary-color);
+
+}
+
+.contact-us-box__text {
+    max-width: 10rem;
+    margin-right: 1.9rem;
+    color: var(--secondary-color);
+}
