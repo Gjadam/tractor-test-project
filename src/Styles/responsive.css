@@ -63,6 +63,9 @@
     .contact-us__content {
         max-width: 100%;
     }
+    .footer__list__items {
+        padding-right: 0;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -93,6 +96,13 @@
     .contact-us-box__text {
         max-width: 100% !important;
     }
+    .footer {
+        padding: 2rem ;
+    }
+    .footer__lists {
+        justify-content: start !important;
+    }
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -120,6 +130,7 @@
     .contact-us__map {
         width: 100%;
     }
+
 }
 
 @media only screen and (max-width: 425px) {
