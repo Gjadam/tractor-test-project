@@ -1,0 +1,29 @@
+.news {
+    background-color: #f7f7f7;
+}
+.news__latest-news {
+    width: 25rem !important;
+    height: auto;
+}
+
+.news__latest-news__btn {
+    background-color: var(--primary-color);
+    width: 100%;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.news__latest-news__btn:hover {
+    background-color: var(--text-color);
+}
+
+
+.news__boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 60px;
+    grid-row-gap: 30px;
+}
