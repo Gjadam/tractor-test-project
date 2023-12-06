@@ -1,0 +1,9 @@
+.advertise {
+    height: 50vh;
+    background: url('/public/images/jpg/advertise-bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+.advertise__content {
+    height: 15rem;
+}
