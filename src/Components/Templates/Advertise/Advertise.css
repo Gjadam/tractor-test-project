@@ -7,3 +7,18 @@
 .advertise__content {
     height: 15rem;
 }
+
+.advertise__content__btn {
+    padding: 15px 35px;
+    background-color: var(--primary-color);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.advertise__content__btn:hover {
+    background-color: #fff;
+    color: var(--text-color) !important;
+}
