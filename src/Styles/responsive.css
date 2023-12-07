@@ -153,10 +153,16 @@
         width: 100%;
     }
 
-
+    .header-slider__text {
+        max-width: 15rem;
+    }
 
     .header-slider__title {
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .header-slider__text {
+        font-size: 0.9rem;
     }
 
     .contact-us__map {
@@ -196,9 +202,10 @@
     .customers__prev-btn {
         font-size: 1rem;
     }
-
+    .button__style {
+        font-size: 0.8rem;
+    }
+    .header-slider__btn-hover {
+        font-size: 0.8rem;
+    }
 }
-
-@media only screen and (max-width: 425px) {}
-
-@media only screen and (max-width: 375px) {}

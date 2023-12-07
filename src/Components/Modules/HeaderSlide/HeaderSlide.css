@@ -17,9 +17,20 @@
     width: 60rem;
 }
 
+.header-slider__content__texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .header-slider__title {
     font-size: 4rem;
 }
+
+
+
+
 
 .header-slider__btn-hover {
     transition: var(--transition);
