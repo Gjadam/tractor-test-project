@@ -27,6 +27,7 @@
 }
 
 .footer__text {
+    font-size: 0.9rem;
     max-width: 20rem;
     color: #777;
 }

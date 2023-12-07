@@ -44,9 +44,9 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="footer__lists d-flex justify-content-center align-items-start flex-wrap ">
+            <div className="footer__lists d-flex justify-content-center align-items-start flex-wrap column-gap-5 ">
               <FooterList title={"لینک های مفید"} link1={"مسیر"} link2={"لجستیک"} link3={"عوامل جهانی"} link4={"شبکه"} link5={"سوالات متداول"} link6={""} />
-              <FooterList title={"شرکت"} link1={"در باره"} link2={"تجربه و تخصص"} link3={"پایداری"} link4={"اخبار و رسانه ها"} link5={"مطالعات موردی"} link6={"مخاطب"} />
+              <FooterList title={"شرکت"} link1={"درباره"} link2={"تجربه و تخصص"} link3={"پایداری"} link4={"اخبار و رسانه ها"} link5={"مطالعات موردی"} link6={"مخاطب"} />
               <FooterList title={"صنایع"} link1={"مواد الکترونیکی"} link2={"هدایا و پوشاک"} link3={"قطعات خودرو"} link4={"سیستم های قدرت"} link5={"مدیریت ساختمان"} link6={""} />
             </div>
           </div>
