@@ -1,0 +1,59 @@
+.navbar__link {
+    cursor: pointer;
+    padding: 1.8rem 1rem;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.navbar__link:hover {
+    color: var(--primary-color) !important;
+}
+
+.navbar__link__dropdown {
+    background-color: #fff;
+    border-bottom: 3px solid var(--primary-color);
+    padding: 1rem 0;
+    z-index: 10;
+    width: 15rem;
+    position: absolute;
+    right: 0;
+    top: 5rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.navbar__link__wrapper:hover .navbar__link__dropdown {
+    top: 3.3rem;
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar__link__dropdown__links {
+    padding: 0 2rem;
+}
+
+.navbar__link__dropdown__link__wrapper {
+    margin: 1rem 0; 
+}
+
+.navbar__link__dropdown__link {
+    color: var(--secondary-color) !important;
+    transition: all var(--transition) !important;
+    -webkit-transition: all var(--transition);
+    -moz-transition: all var(--transition);
+    -ms-transition: all var(--transition);
+    -o-transition: all var(--transition);
+}
+
+.navbar__link__dropdown__link:hover {
+    color:  var(--primary-color) !important;
+}
+
