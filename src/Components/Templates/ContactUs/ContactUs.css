@@ -14,6 +14,7 @@
   filter: brightness(0.65);
   width: 800px;
   -webkit-filter: brightness(0.65);
+  cursor: grab;
 }
 
 .contact-us__map__icon__wrapper {
