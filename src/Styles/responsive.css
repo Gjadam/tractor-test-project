@@ -7,6 +7,9 @@
     .contact-us__map {
         width: 100%;
     }
+    .search-box__input-box {
+        font-size: 6rem;
+    }
 }
 
 
@@ -56,6 +59,9 @@
     .navbar {
         overflow-x: hidden;
     }
+    .search-box__input-box {
+        font-size: 4rem;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -69,6 +75,9 @@
 
     .footer__list__items {
         padding-right: 0;
+    }
+    .search-box__input-box {
+        font-size: 4rem;
     }
 }
 
@@ -108,7 +117,12 @@
     .footer__lists {
         justify-content: start !important;
     }
-
+    .search-box__input-box {
+        font-size: 2rem;
+    }
+    .search-box__close-btn__icon {
+        font-size: 3rem;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -156,6 +170,12 @@
 
     .navbar__shop__badge {
         top: 0.7rem;
+    }
+    .search-box__input-box {
+        font-size: 1rem;
+    }
+    .search-box__close-btn__icon {
+        font-size: 2rem;
     }
 }
 
