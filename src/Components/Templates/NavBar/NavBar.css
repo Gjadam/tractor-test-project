@@ -28,6 +28,7 @@
 }
 
 .navbar__item {
+    cursor: pointer;
     padding: 1.8rem 1.5rem;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -114,6 +115,7 @@
 .navbar__hamburger__wrapper:hover .navbar__hamburger::before {
     width: 80%;
 }
+
 .navbar__hamburger__wrapper:hover .navbar__hamburger::after {
     width: 60%;
 }
@@ -232,3 +234,82 @@
 
 
 /* End Bootstrap Accordion */
+
+
+.search-box {
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #000000a8;
+    z-index: 9;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.search-box--open {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+}
+
+.search-box--open .search-box__input-box {
+    opacity: 1;
+    visibility: visible;
+}
+.search-box--open .search-box__text {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.search-box__input-wrapper {}
+
+.search-box__input-box {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-bottom: 0.5rem solid var(--primary-color);
+    outline: none;
+    font-size: 8rem;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.search-box__close-btn {
+    position: absolute;
+    top: -10rem;
+    left: 0;
+}
+
+.search-box__close-btn__icon {
+    cursor: pointer;
+    font-size: 4rem;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.search-box__close-btn__icon:hover {
+    color: var(--primary-color) !important;
+}
+
+.search-box__text {
+    position: absolute;
+    left: 0;
+    bottom: -2rem;
+    font-size: 1rem;
+    color: var(--primary-color);
+    opacity: 0;
+    visibility: hidden;
+}

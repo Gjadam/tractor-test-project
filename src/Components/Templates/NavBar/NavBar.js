@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './NavBar.css'
 import { TiArrowLeft } from "react-icons/ti";
 import NavBarLink from '../../Modules/NavBarLink/NavBarLink';
@@ -6,7 +6,7 @@ import NavBarLinkFull from '../../Modules/NavBarLinkFull/NavBarLinkFull';
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { IoSearchOutline } from "react-icons/io5";
 import { LiaTimesSolid } from "react-icons/lia";
-import { Accordion } from 'react-bootstrap';
+import { Accordion, Container } from 'react-bootstrap';
 export default function NavBar() {
 
     const [isOpenShop, setIsOpenShop] = useState(true)
@@ -35,6 +35,33 @@ export default function NavBar() {
         navBarMobile.classList.remove("navbar__mobile--open")
     }
 
+    const openSearchBox = (event) => {
+        event.preventDefault()
+        const searchBox = document.querySelector('.search-box')
+        searchBox.classList.add("search-box--open")
+    }
+
+    const closeSearchBox = () => {
+        const searchBox = document.querySelector('.search-box')
+        searchBox.classList.remove("search-box--open")
+    }
+
+    useEffect(() => {
+        window.addEventListener("keydown", (event) => {
+            const searchBox = document.querySelector('.search-box')
+            if (event.keyCode === 27) {
+                searchBox.classList.remove("search-box--open")
+            }
+        })
+    }, [])
+    const exitSearchBoxClick = (event) => {
+        const searchBox = document.querySelector('.search-box')
+        if (event.keyCode === 27) {
+            searchBox.classList.remove("search-box--open")
+        }
+    }
+
+
     return (
         <div className='navbar d-flex justify-content-between align-items-center p-0 bg-white border-bottom'>
             <div className=" d-flex justify-content-center align-items-center p-3 ">
@@ -52,7 +79,7 @@ export default function NavBar() {
             </div>
             <div className=" d-flex justify-content-center align-items-center ">
                 <a href="" className=' text-decoration-none '>
-                    <div className="navbar__item navbar__shop position-relative border-end ">
+                    <div className="navbar__item navbar__shop position-relative border-end " onClick={(event) => openSearchBox(event)}>
                         <IoSearchOutline className=' fs-4 ' />
                     </div>
                 </a>
@@ -109,6 +136,15 @@ export default function NavBar() {
                     </Accordion>
                 </div>
             </div>
+            <form className="search-box" onKeyDown={(event) => exitSearchBoxClick(event)} >
+                <div class="search-box__input-wrapper position-relative" >
+                    <input class="search-box__input-box" type="text" />
+                    <div className="search-box__close-btn ">
+                        <LiaTimesSolid className='search-box__close-btn__icon text-white ' onClick={closeSearchBox} />
+                    </div>
+                    <span className='search-box__text fw-bold '> برای جست و جو Enter و برای خروج ESC را بزنید</span>
+                </div>
+            </form>
         </div>
     )
 }
