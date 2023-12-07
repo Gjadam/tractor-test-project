@@ -25,14 +25,7 @@
   <title>React App</title>
 </head>
 
-<body dir="rtl" class="overflow-hidden">
-  <!-- Start Loader -->
-  <div class="loader-page  d-flex justify-content-center align-items-center">
-    <div class="spinner">
-      <div class="spinner1"></div>
-    </div>
-  </div>
-  <!-- End Loader -->
+<body dir="rtl">
 
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
@@ -46,12 +39,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  <script>
-    window.addEventListener('load', () => {
-      document.body.classList.remove('overflow-hidden')
-      document.querySelector('.loader-page').classList.add('d-none')
-    })
-  </script>
 </body>
 
 </html>
