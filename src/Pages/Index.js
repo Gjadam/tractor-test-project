@@ -10,11 +10,13 @@ import News from '../Components/Templates/News/News'
 import Advertise from '../Components/Templates/Advertise/Advertise'
 import ContactUs from '../Components/Templates/ContactUs/ContactUs'
 import Footer from '../Components/Templates/Footer/Footer'
+import NavBar from '../Components/Templates/NavBar/NavBar'
 
 export default function Index() {
     return (
         <>
             <TopBar />
+            <NavBar />
             <Header />
             <Articles />
             <About />
