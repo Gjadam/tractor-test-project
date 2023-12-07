@@ -63,7 +63,7 @@ export default function NavBar() {
 
 
     return (
-        <div className='navbar d-flex justify-content-between align-items-center p-0 bg-white border-bottom'>
+        <div className='navbar d-flex justify-content-between align-items-center position-sticky top-0 z-3  p-0 bg-white'>
             <div className=" d-flex justify-content-center align-items-center p-3 ">
                 <div className="navbar__logo  ">
                     <a href="">
@@ -109,6 +109,81 @@ export default function NavBar() {
                     <LiaTimesSolid className='navbar__mobile__times-icon fs-3 text-secondary ' onClick={closeNavbarMobile} />
                 </div>
                 <div className="  p-4 ">
+                    <Accordion flush>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header >
+                                <span className=' fw-bold '>
+                                    تایتل تستی
+                                </span>
+                            </Accordion.Header>
+                            <Accordion.Body>
+                                <ul className=' list-unstyled px-2 '>
+                                    <li className=' pt-3 '>
+                                        <a href="" className='navbar__mobile__link text-white text-decoration-none '>لینک تستی</a>
+                                    </li>
+                                    <li className=' pt-3 '>
+                                        <a href="" className='navbar__mobile__link text-white text-decoration-none '>لینک تستی</a>
+                                    </li>
+                                    <li className=' pt-3 '>
+                                        <a href="" className='navbar__mobile__link text-white text-decoration-none '>لینک تستی</a>
+                                    </li>
+                                    <li className=' pt-3 '>
+                                        <a href="" className='navbar__mobile__link text-white text-decoration-none '>لینک تستی</a>
+                                    </li>
+                                </ul>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
+                    <Accordion flush>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header >
+                                <span className=' fw-bold '>
+                                    تایتل تستی
+                                </span>
+                            </Accordion.Header>
+                            <Accordion.Body>
+                                <ul className=' list-unstyled px-2 '>
+                                    <li className=' pt-3 '>
+                                        <a href="" className='navbar__mobile__link text-white text-decoration-none '>لینک تستی</a>
+                                    </li>
+                                    <li className=' pt-3 '>
+                                        <a href="" className='navbar__mobile__link text-white text-decoration-none '>لینک تستی</a>
+                                    </li>
+                                    <li className=' pt-3 '>
+                                        <a href="" className='navbar__mobile__link text-white text-decoration-none '>لینک تستی</a>
+                                    </li>
+                                    <li className=' pt-3 '>
+                                        <a href="" className='navbar__mobile__link text-white text-decoration-none '>لینک تستی</a>
+                                    </li>
+                                </ul>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
+                    <Accordion flush>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header >
+                                <span className=' fw-bold '>
+                                    تایتل تستی
+                                </span>
+                            </Accordion.Header>
+                            <Accordion.Body>
+                                <ul className=' list-unstyled px-2 '>
+                                    <li className=' pt-3 '>
+                                        <a href="" className='navbar__mobile__link text-white text-decoration-none '>لینک تستی</a>
+                                    </li>
+                                    <li className=' pt-3 '>
+                                        <a href="" className='navbar__mobile__link text-white text-decoration-none '>لینک تستی</a>
+                                    </li>
+                                    <li className=' pt-3 '>
+                                        <a href="" className='navbar__mobile__link text-white text-decoration-none '>لینک تستی</a>
+                                    </li>
+                                    <li className=' pt-3 '>
+                                        <a href="" className='navbar__mobile__link text-white text-decoration-none '>لینک تستی</a>
+                                    </li>
+                                </ul>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
                     <Accordion flush>
                         <Accordion.Item eventKey="0">
                             <Accordion.Header >
