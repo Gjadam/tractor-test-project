@@ -12,7 +12,7 @@ import { LiaVimeo } from "react-icons/lia";
 import { Container } from 'react-bootstrap';
 export default function TopBar() {
     return (
-        <Container fluid className=' d-flex justify-content-between align-items-center pt-3 px-5  d-none d-xl-flex top-bar__font-size'>
+        <Container fluid className=' d-flex justify-content-between align-items-center pt-3 px-5 mb-3   d-none d-xl-flex top-bar__font-size'>
             <div className=" d-flex align-items-center column-gap-3 ">
                 <a href="" className=' text-decoration-none top-bar__hover'>
                     <TopBarItem text={"1 800 977 78 80"} icon={<MdPhoneEnabled />} hoverColor={"top-bar__hover"}/>
