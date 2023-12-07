@@ -4,14 +4,22 @@
         margin-top: 5rem;
         margin-right: 0;
     }
+
     .contact-us__map {
         width: 100%;
     }
+
     .search-box__input-box {
         font-size: 6rem;
     }
 }
 
+@media only screen and (max-width: 1400px) {
+    .articles-box::before {
+        display: none;
+    }
+
+}
 
 @media only screen and (max-width: 1200px) {
     .projects__bg {
@@ -56,12 +64,15 @@
         justify-items: center;
         align-items: center;
     }
+
     .navbar {
         overflow-x: hidden;
     }
+
     .search-box__input-box {
         font-size: 4rem;
     }
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -76,6 +87,7 @@
     .footer__list__items {
         padding-right: 0;
     }
+
     .search-box__input-box {
         font-size: 4rem;
     }
@@ -83,9 +95,10 @@
 
 @media only screen and (max-width: 768px) {
     .articles-box::before {
+        display: block;
         width: 15rem;
         top: 100%;
-        right: 8rem;
+        right: 0.5rem;
         bottom: 0;
         transform: rotate(0);
         -webkit-transform: rotate(0);
@@ -117,9 +130,11 @@
     .footer__lists {
         justify-content: start !important;
     }
+
     .search-box__input-box {
         font-size: 2rem;
     }
+
     .search-box__close-btn__icon {
         font-size: 3rem;
     }
@@ -138,9 +153,6 @@
         width: 100%;
     }
 
-    .articles-box::before {
-        right: 6rem;
-    }
 
 
     .header-slider__title {
@@ -171,31 +183,22 @@
     .navbar__shop__badge {
         top: 0.7rem;
     }
+
     .search-box__input-box {
         font-size: 1.7rem;
     }
+
     .search-box__close-btn__icon {
         font-size: 2rem;
     }
+
     .customers__next-btn,
     .customers__prev-btn {
         font-size: 1rem;
     }
-    
-}
-
-@media only screen and (max-width: 425px) {
-
-    .articles-box::before {
-        right: 5rem;
-    }
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 425px) {}
 
-    .articles-box::before {
-        right: 3rem;
-    }
-
-}
+@media only screen and (max-width: 375px) {}
