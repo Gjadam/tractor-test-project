@@ -1,7 +1,10 @@
+html {
+  overflow-x: hidden !important;
+}
+
 body {
   margin: 0;
   font-family: "IRANSans" !important;
-  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
