@@ -65,9 +65,7 @@
         align-items: center;
     }
 
-    .navbar {
-        overflow-x: hidden;
-    }
+
 
     .search-box__input-box {
         font-size: 4rem;
