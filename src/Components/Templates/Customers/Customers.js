@@ -12,7 +12,7 @@ export default function Customers() {
     return (
         <Container className='customers'>
 
-            <div className="">
+            <div className=""  data-aos="fade-up" data-aos-duration="1000">
                 <Swiper
                     className="mySwiper d-flex  flex-column-reverse "
                     slidesPerView={1}

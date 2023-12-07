@@ -4,7 +4,7 @@ import { HiOutlineArrowSmLeft } from "react-icons/hi";
 export default function ArticleBox({ imgUrl, title, text }) {
     return (
         <>
-            <a href="" className='article-box text-decoration-none '>
+            <a href="" className='article-box text-decoration-none ' data-aos="fade-up" data-aos-duration="1000">
                 <div className=' d-flex justify-content-between  align-items-center flex-column row-gap-2 p-3 border-0 '>
                     <div className="article-box__icon__wrapper mb-3 ">
                         <img src={imgUrl} className='article-box__icon' alt="icon" />

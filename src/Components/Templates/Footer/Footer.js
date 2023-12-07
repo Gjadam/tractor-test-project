@@ -12,10 +12,10 @@ export default function Footer() {
       <div className=" d-flex justify-content-center align-items-center ">
         <div className="footer__top row d-flex justify-content-between align-items-center w-100 ">
           <div className="footer__top__email col-12 col-lg-6  d-flex justify-content-center align-items-center ">
-            <span className='text-white fw-bold fs-4 '>ایمیل: tractor@thememove.com</span>
+            <span className='text-white fw-bold fs-4 '  data-aos="fade-up" data-aos-duration="800">ایمیل: tractor@thememove.com</span>
           </div>
           <div className="footer__top__phone col-12 col-lg-6  d-flex justify-content-center align-items-center ">
-            <span className='text-white fw-bold fs-4 '>پشتیبانی: 88.666.888(+00)</span>
+            <span className='text-white fw-bold fs-4 '  data-aos="fade-up" data-aos-duration="800">پشتیبانی: 88.666.888(+00)</span>
           </div>
         </div>
       </div>

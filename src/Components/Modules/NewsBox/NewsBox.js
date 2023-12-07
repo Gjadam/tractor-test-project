@@ -1,8 +1,8 @@
 import React from 'react'
 import './NewsBox.css'
-export default function NewsBox({ imgUrl, category, title }) {
+export default function NewsBox({fadeTime, imgUrl, category, title }) {
     return (
-        <div className="news__boxes__box ">
+        <div className="news__boxes__box "  data-aos="fade-up" data-aos-duration={fadeTime}>
             <div className="news__boxes__box__image__wrapper">
                 <img src={imgUrl} className='news__boxes__box__image w-100 h-100 ' alt="image" />
             </div>

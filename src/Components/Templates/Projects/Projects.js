@@ -12,7 +12,7 @@ export default function Projects() {
     };
     return (
         <>
-            <div className="projects">
+            <div className="projects"  data-aos="fade-up" data-aos-duration="1000">
                 <Swiper
                 spaceBetween={100}
                     loop

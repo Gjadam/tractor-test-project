@@ -8,7 +8,7 @@ import { useSwiper } from 'swiper/react'
 export default function CustomersNav() {
     const swiper = useSwiper()
     return (
-        <div className=" d-flex justify-content-between align-items-center border-bottom pb-4 ">
+        <div className=" d-flex justify-content-between align-items-center border-bottom pb-4 "  data-aos="fade-up" data-aos-duration="800">
             <div className=" d-flex justify-content-center align-items-center ">
                 <PiChatsFill className='customers__icon ms-2' />
                 <span className=' fs-2  fw-bold '>مشتریان خوشحال گفتند</span>
