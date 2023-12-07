@@ -1,4 +1,6 @@
-
+.projects {
+  margin: var(--margin);
+}
 .swiper-pagination-bullets {
     display: flex;
     justify-content: start;

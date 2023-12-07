@@ -1,3 +1,6 @@
+.articles {
+    margin: var(--margin) !important;
+}
 .articles-box {
     position: relative;
 }
@@ -8,7 +11,7 @@
     height: 1px;
     position: absolute;
     top: 50%;
-    left: -3rem;
+    left: -4rem;
     transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);

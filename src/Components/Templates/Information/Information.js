@@ -7,7 +7,7 @@ import InformationBox from '../../Modules/InformationBox/InformationBox'
 import InformationSlide from '../../Modules/InformationSlide/InformationSlide';
 export default function Information() {
     return (
-        <div className='information my-5 '>
+        <div className='information '>
             <Container>
                 <h2 className="information__title text-center fw-bold ">اعداد برای خودشان صحبت می کنند</h2>
                 <div className=" w-100  row ">

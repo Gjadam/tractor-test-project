@@ -1,5 +1,6 @@
 .news {
     background-color: #f7f7f7;
+    margin: var(--margin);
 }
 .news__latest-news {
     width: 25rem !important;

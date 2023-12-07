@@ -12,7 +12,7 @@ export default function Projects() {
     };
     return (
         <>
-            <div className="">
+            <div className="projects">
                 <Swiper
                 spaceBetween={100}
                     loop

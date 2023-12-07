@@ -1,4 +1,5 @@
 .about {
+    margin: var(--margin) !important;
     height: 35rem;
 }
 .about__right-bg {

@@ -1,6 +1,7 @@
 .information {
     background: url('/public/images/png/information-bg.png') no-repeat;
     background-size: cover;
+    margin: var(--margin) !important;
 }
 .information__title {
     color: var(--text-color);
