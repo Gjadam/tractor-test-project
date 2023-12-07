@@ -158,3 +158,77 @@
 .navbar__btn:hover::before {
     left: 150%;
 }
+
+
+
+.navbar__mobile {
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+    z-index: 20;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.navbar__mobile--open {
+    width: 100%;
+}
+
+.navbar__mobile__times-icon {
+    cursor: pointer;
+    transition: all 0.5s !important;
+    -webkit-transition: all 0.5s !important;
+    -moz-transition: all 0.5s !important;
+    -ms-transition: all 0.5s !important;
+    -o-transition: all 0.5s !important;
+}
+
+.navbar__mobile__times-icon:hover {
+    color: var(--primary-color) !important;
+}
+
+
+.navbar__mobile__link {
+    color: var(--secondary-color) !important;
+    transition: all 0.5s !important;
+    -webkit-transition: all 0.5s !important;
+    -moz-transition: all 0.5s !important;
+    -ms-transition: all 0.5s !important;
+    -o-transition: all 0.5s !important;
+}
+
+.navbar__mobile__link:hover {
+    color: var(--primary-color) !important;
+}
+
+/* Start Bootstrap Accordion */
+
+.accordion-item {
+    background-color: #222 !important;
+    color: #fff !important;
+    border-bottom: 0 !important;
+}
+
+
+.accordion-button {
+    color: #fff !important;
+    background-color: #222 !important;
+    border-bottom: 0 !important;
+    width: 100% !important;
+}
+
+.accordion-button::after {
+    background-image: url("/public/images/png/arrow.png") !important;
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+
+
+/* End Bootstrap Accordion */

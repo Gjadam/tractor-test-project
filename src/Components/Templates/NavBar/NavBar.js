@@ -5,9 +5,13 @@ import NavBarLink from '../../Modules/NavBarLink/NavBarLink';
 import NavBarLinkFull from '../../Modules/NavBarLinkFull/NavBarLinkFull';
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { IoSearchOutline } from "react-icons/io5";
-
+import { LiaTimesSolid } from "react-icons/lia";
+import { Accordion } from 'react-bootstrap';
 export default function NavBar() {
+
     const [isOpenShop, setIsOpenShop] = useState(true)
+
+
     const openShop = (event) => {
         event.preventDefault()
         const shopDropDown = document.querySelector('.navbar__shop__dropdown')
@@ -18,6 +22,17 @@ export default function NavBar() {
             shopDropDown.classList.remove("navbar__shop__dropdown--open")
             setIsOpenShop(true)
         }
+    }
+
+    const openNavbarMobile = (event) => {
+        event.preventDefault()
+        const navBarMobile = document.querySelector('.navbar__mobile')
+        navBarMobile.classList.add("navbar__mobile--open")
+    }
+
+    const closeNavbarMobile = () => {
+        const navBarMobile = document.querySelector('.navbar__mobile')
+        navBarMobile.classList.remove("navbar__mobile--open")
     }
 
     return (
@@ -51,7 +66,7 @@ export default function NavBar() {
                     </div>
                 </a>
                 <a href="" className=' text-decoration-none d-flex d-xxl-none '>
-                    <div className="navbar__hamburger__wrapper position-relative border-end ">
+                    <div className="navbar__hamburger__wrapper position-relative border-end " onClick={(event) => openNavbarMobile(event)}>
                         <div className="navbar__hamburger"></div>
                     </div>
                 </a>
@@ -60,6 +75,39 @@ export default function NavBar() {
                         <span>یک نقل قول دریافت کنید<TiArrowLeft className=' fs-4 me-1  ' /></span>
                     </div>
                 </a>
+            </div>
+            <div className="navbar__mobile">
+                <div className=" d-flex justify-content-between align-items-center bg-white p-4 ">
+                    <img src="/images/png/logo-yellow.png" alt="logo" />
+                    <LiaTimesSolid className='navbar__mobile__times-icon fs-3 text-secondary ' onClick={closeNavbarMobile} />
+                </div>
+                <div className="  p-4 ">
+                    <Accordion flush>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header >
+                                <span className=' fw-bold '>
+                                    تایتل تستی
+                                </span>
+                            </Accordion.Header>
+                            <Accordion.Body>
+                                <ul className=' list-unstyled px-2 '>
+                                    <li className=' pt-3 '>
+                                        <a href="" className='navbar__mobile__link text-white text-decoration-none '>لینک تستی</a>
+                                    </li>
+                                    <li className=' pt-3 '>
+                                        <a href="" className='navbar__mobile__link text-white text-decoration-none '>لینک تستی</a>
+                                    </li>
+                                    <li className=' pt-3 '>
+                                        <a href="" className='navbar__mobile__link text-white text-decoration-none '>لینک تستی</a>
+                                    </li>
+                                    <li className=' pt-3 '>
+                                        <a href="" className='navbar__mobile__link text-white text-decoration-none '>لینک تستی</a>
+                                    </li>
+                                </ul>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
+                </div>
             </div>
         </div>
     )
