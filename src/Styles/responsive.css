@@ -177,6 +177,11 @@
     .search-box__close-btn__icon {
         font-size: 2rem;
     }
+    .customers__next-btn,
+    .customers__prev-btn {
+        font-size: 1rem;
+    }
+    
 }
 
 @media only screen and (max-width: 425px) {
