@@ -1,3 +1,6 @@
+.top-bar {
+    border-bottom: 1px solid #eee;
+}
 .top-bar__color {
     color: var(--secondary-color) !important;
 }
