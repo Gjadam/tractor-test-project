@@ -7,10 +7,14 @@ export default function Advertise() {
         <div className='advertise d-flex justify-content-center align-items-center '>
             <Container>
                 <div className="advertise__content d-flex justify-content-between align-items-center flex-column text-white  w-100 ">
-                    <h6 className='fw-bold'  data-aos="fade-up" data-aos-duration="800">از سال 1992 کار می کند</h6>
-                    <h1 className='fw-bold'  data-aos="fade-up" data-aos-duration="900">ما در بازار صنعتی پیشرو هستیم</h1>
-                    <Button text={"هم اکنون بخرید"} />
-                    <p className=''  data-aos="fade-up" data-aos-duration="1000">
+                    <h6 className='fw-bold' data-aos="fade-up" data-aos-duration="800">از سال 1992 کار می کند</h6>
+                    <h1 className='fw-bold' data-aos="fade-up" data-aos-duration="900">ما در بازار صنعتی پیشرو هستیم</h1>
+                    <a href="" className=' text-decoration-none ' data-aos="fade-up" data-aos-duration="1000">
+                        <div className=" d-flex justify-content-center align-items-center">
+                            <h6 className='advertise__content__btn text-white fw-bold '>هم اکنون بخرید</h6>
+                        </div>
+                    </a>
+                    <p className='' data-aos="fade-up" data-aos-duration="1000">
                         یا از طریق <span className=' text-decoration-underline '>tractor@industry.com</span> با ما تماس بگیرید
                     </p>
                 </div>
