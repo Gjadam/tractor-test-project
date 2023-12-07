@@ -1,5 +1,5 @@
 .footer__list__title {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -11,7 +11,7 @@
 
 .footer__list__link {
     color: #777 !important;
-
+    font-size: 0.9rem;
     text-decoration: none ;
     transition: var(--transition);
     -webkit-transition: var(--transition);
