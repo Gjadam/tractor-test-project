@@ -1,0 +1,160 @@
+.navbar {
+    border-top: 1px solid #eee;
+}
+
+.navbar__logo {
+    position: relative;
+    margin-right: 2rem;
+}
+
+.navbar__logo::before {
+    content: "";
+    width: 5.1rem;
+    height: 1px;
+    background-color: #eee;
+    position: absolute;
+    left: -6.5rem;
+    top: 1.5rem;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+
+.navbar__links {
+    margin-right: 6rem;
+}
+
+.navbar__item {
+    padding: 1.8rem 1.5rem;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.navbar__item:hover {
+    color: var(--primary-color);
+}
+
+.navbar__shop__badge {
+    background-color: var(--primary-color) !important;
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 50%;
+    position: absolute;
+    right: 0rem;
+    top: 1.5rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.navbar__shop__dropdown {
+    background-color: #fff;
+    border-bottom: 3px solid var(--primary-color);
+    width: 17rem;
+    z-index: 3;
+    position: absolute;
+    top: 6.1rem;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.navbar__shop__dropdown--open {
+    top: 5.1rem;
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar__shop__dropdown__text {
+    color: var(--secondary-color);
+}
+
+.navbar__hamburger__wrapper {
+    padding: 2.5rem 1.5rem;
+}
+
+.navbar__hamburger {
+    position: relative;
+    width: 1.5rem;
+    height: 2px;
+    background-color: var(--text-color);
+}
+
+.navbar__hamburger::before,
+.navbar__hamburger::after {
+    content: "";
+    background-color: var(--text-color);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.navbar__hamburger::before {
+    bottom: 0.5rem;
+}
+
+.navbar__hamburger__wrapper:hover .navbar__hamburger::before {
+    width: 80%;
+}
+.navbar__hamburger__wrapper:hover .navbar__hamburger::after {
+    width: 60%;
+}
+
+
+.navbar__hamburger::after {
+    top: 0.5rem;
+}
+
+
+
+.navbar__btn {
+    padding: 1.8rem 1.5rem;
+    background-color: var(--primary-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar__btn::before {
+    content: "";
+    background-color: hsla(0, 0%, 100%, .5);
+    height: 100%;
+    width: 3.5em;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -50%;
+    transform: skewX(-45deg);
+    -webkit-transform: skewX(-45deg);
+    -ms-transform: skewX(-45deg);
+    -moz-transform: skewX(-45deg);
+    -o-transform: skewX(-45deg);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transform-origin: right;
+}
+
+
+.navbar__btn:hover::before {
+    left: 150%;
+}
