@@ -1,15 +1,15 @@
 import React, { useEffect } from 'react'
 import './ToUp.css'
-import { TiArrowSortedUp } from "react-icons/ti";
+import { LuArrowUp } from "react-icons/lu";
 export default function ToUp() {
 
     useEffect(() => {
-        const toUpBtn = document.querySelector('.to-up')
+        const toUpBtn = document.querySelector('.to-up__wrapper')
         window.addEventListener("scroll", () => {
-            if (window.scrollY > 500) {
-                toUpBtn.classList.add('to-up--active')
+            if (window.scrollY > 600) {
+                toUpBtn.classList.add('to-up__wrapper--active')
             } else {
-                toUpBtn.classList.remove('to-up--active')
+                toUpBtn.classList.remove('to-up__wrapper--active')
             }
         })
     }, [])
@@ -20,8 +20,8 @@ export default function ToUp() {
     }
 
     return (
-        <>
-            <TiArrowSortedUp className='to-up fs-1 shadow rounded-5 text-light p-1 ' onClick={toUpHandler}/>
-        </>
+        <div className='to-up__wrapper p-3' onClick={toUpHandler}>
+            <LuArrowUp className='to-up fs-2 text-white ' />
+        </div>
     )
 }
