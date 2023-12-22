@@ -11,10 +11,12 @@ import Advertise from '../Components/Templates/Advertise/Advertise'
 import ContactUs from '../Components/Templates/ContactUs/ContactUs'
 import Footer from '../Components/Templates/Footer/Footer'
 import NavBar from '../Components/Templates/NavBar/NavBar'
+import ToUp from '../Components/Modules/ToUp/ToUp'
 
 export default function Index() {
     return (
         <>
+            <ToUp />
             <TopBar />
             <NavBar />
             <Header />

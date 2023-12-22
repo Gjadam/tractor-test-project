@@ -1,0 +1,38 @@
+.to-up {
+    background-color: var(--primary-color);
+    cursor: pointer;
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    z-index: 999;
+    opacity: 0;
+    transform: translateY(1rem);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+    -webkit-transform: translateY(1rem);
+    -moz-transform: translateY(1rem);
+    -ms-transform: translateY(1rem);
+    -o-transform: translateY(1rem);
+}
+
+.to-up:hover {
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+    transform: translateY(-0.2rem);
+    -webkit-transform: translateY(-0.2rem);
+    -moz-transform: translateY(-0.2rem);
+    -ms-transform: translateY(-0.2rem);
+    -o-transform: translateY(-0.2rem);
+}
+
+.to-up--active {
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
