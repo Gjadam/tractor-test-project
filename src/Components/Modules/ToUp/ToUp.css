@@ -1,9 +1,14 @@
-.to-up {
-    background-color: var(--primary-color);
-    cursor: pointer;
+.to-up__wrapper {
     position: fixed;
     bottom: 2rem;
     left: 2rem;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
     z-index: 999;
     opacity: 0;
     transform: translateY(1rem);
@@ -18,7 +23,7 @@
     -o-transform: translateY(1rem);
 }
 
-.to-up:hover {
+.to-up__wrapper:hover {
     filter: brightness(90%);
     -webkit-filter: brightness(90%);
     transform: translateY(-0.2rem);
@@ -28,7 +33,7 @@
     -o-transform: translateY(-0.2rem);
 }
 
-.to-up--active {
+.to-up__wrapper--active {
     opacity: 1;
     transform: translateY(0);
     -webkit-transform: translateY(0);
