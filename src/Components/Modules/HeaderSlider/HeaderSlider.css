@@ -58,4 +58,10 @@
   opacity: 0.7;
 }
 
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 1.6rem !important;
+}
+
 /* End Slider Styles */
